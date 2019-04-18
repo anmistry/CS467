@@ -1,0 +1,30 @@
+.dropbtn{
+    float: right;
+    padding: 8px;
+    font-size: 14px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+dropdown{
+    
+    display: inline-block;
+}
+
+dropdown-content{
+    position: absolute;
+    background-color: green;
+    min-width: 80px;
+}
+
+.dropdown-content a{
+    color: black;
+    display: block;
+    padding: 4px 8px;
+}
+
+dropdown-content a:hover{
+    color: Orange;
+    background: yellow;
+}
